@@ -42,26 +42,28 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <div class="backtotop">
         <a href="#" class="scroll">
-            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="36" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
-                <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
-              </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="36" fill="currentColor"
+                class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+                <path
+                    d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z" />
+            </svg>
         </a>
-      </div>
-      <script>
+    </div>
+    <script>
         // Get the button
         const scrollToTopButton = document.getElementById("scrollToTop");
-    
+
         // Show the button when scrolling down
-        window.onscroll = function() {
+        window.onscroll = function () {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 scrollToTopButton.style.display = "block";
             } else {
                 scrollToTopButton.style.display = "none";
             }
         };
-    
+
         // Smooth scroll to top when button is clicked
-        scrollToTopButton.addEventListener("click", function(e) {
+        scrollToTopButton.addEventListener("click", function (e) {
             e.preventDefault(); // Prevent the default anchor behavior
             window.scrollTo({
                 top: 0,
@@ -164,14 +166,12 @@
                 </div>
             </div>
         </div>
-
-        <!-- <div style="background-image: radial-gradient(circle at 85% 1%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 96%,transparent 96%, transparent 100%),radial-gradient(circle at 14% 15%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 1%,transparent 1%, transparent 100%),radial-gradient(circle at 60% 90%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 20%,transparent 20%, transparent 100%),radial-gradient(circle at 79% 7%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 78%,transparent 78%, transparent 100%),radial-gradient(circle at 55% 65%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 52%,transparent 52%, transparent 100%),linear-gradient(135deg, rgb(37, 56, 222),rgb(96, 189, 244));"> -->
-        <!-- <div style="background-image: linear-gradient(157.5deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(135deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(112.5deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(90deg, rgb(9,92,76),rgb(201, 243, 43)); background-blend-mode:overlay,overlay,overlay,normal;"> -->
-        <div
-            style="background-image: linear-gradient(157.5deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(135deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(112.5deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(90deg, rgb(53,134,255),rgb(43,241,243)); background-blend-mode:overlay,overlay,overlay,normal;">
-            <section class="cardlymaincontent ">
-                <div class="container">
-                    <!-- <div class="row">
+    </div>
+    <div
+        style="background-image: linear-gradient(157.5deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(135deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(112.5deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(90deg, rgb(53,134,255),rgb(43,241,243)); background-blend-mode:overlay,overlay,overlay,normal;">
+        <section class="cardlymaincontent ">
+            <div class="container">
+                <!-- <div class="row">
                      <div class="col-lg-12"> 
                          <div class="heading1"  style="background-image: url('assets/images/bg_pattern_1.svg');">
                             <h1>
@@ -190,86 +190,87 @@
                      </div> 
 
                 </div> -->
-                </div>
+            </div>
 
-            </section>
-            <script>
-                AOS.init();
-            </script>
-            <div data-aos="fade-right">
-                <section class="client_logo_section section_space_p"
-                    style="background-image: url('assets/images/bg_pattern_1.svg');">
+        </section>
+        <script>
+            AOS.init();
+        </script>
+        <div data-aos="fade-right">
+            <section class="client_logo_section section_space_p"
+                style="background-image: url('assets/images/bg_pattern_1.svg');">
 
-                    <div class="container">
-                        <div class="section_space ">
-                            <div class="heading_block text-center">
-                                <div class="heading_focus_text mb-0">
-                                    <h2 class="heading_text">
-                                        Welcome to Cardly
-                                    </h2>
-                                    <h5>Your one-stop-shop for premium NFC-enabled business cards.</h5>
+                <div class="container">
+                    <div class="section_space ">
+                        <div class="heading_block text-center">
+                            <div class="heading_focus_text mb-0">
+                                <h2 class="heading_text">
+                                    Welcome to Cardly
+                                </h2>
+                                <h5>Your one-stop-shop for premium NFC-enabled business cards.</h5>
 
-                                    <p>Elevate your brand's presence with Cardly's innovative products. Our premium
-                                        business
-                                        cards, equipped with NFC technology, offer a seamless way to share information
-                                        and
-                                        connect with potential clients. Showcase your positive reviews with our stylish
-                                        Google
-                                        Review Cards. Need a captivating display? Our Profile Stands and Exhibition
-                                        Showcase
-                                        Stands are perfect for showcasing your products or services.
+                                <p>Elevate your brand's presence with Cardly's innovative products. Our premium
+                                    business
+                                    cards, equipped with NFC technology, offer a seamless way to share information
+                                    and
+                                    connect with potential clients. Showcase your positive reviews with our stylish
+                                    Google
+                                    Review Cards. Need a captivating display? Our Profile Stands and Exhibition
+                                    Showcase
+                                    Stands are perfect for showcasing your products or services.
 
-                                        For businesses in the hospitality industry, our Hotel Room Menus and Restaurant
-                                        Table
-                                        Menus provide a unique and interactive dining experience. Stay connected with
-                                        your
-                                        customers on the go with our Car Connect solution, featuring QR codes and NFC
-                                        technology. And for a stylish home presence, our Home Boards are the ideal
-                                        choice.
+                                    For businesses in the hospitality industry, our Hotel Room Menus and Restaurant
+                                    Table
+                                    Menus provide a unique and interactive dining experience. Stay connected with
+                                    your
+                                    customers on the go with our Car Connect solution, featuring QR codes and NFC
+                                    technology. And for a stylish home presence, our Home Boards are the ideal
+                                    choice.
 
-                                        At Cardly, we believe in providing next-generation business solutions that drive
-                                        growth
-                                        and engagement. Explore our product range and discover how we can help you make
-                                        a
-                                        lasting impression.</p>
-                                </div>
+                                    At Cardly, we believe in providing next-generation business solutions that drive
+                                    growth
+                                    and engagement. Explore our product range and discover how we can help you make
+                                    a
+                                    lasting impression.</p>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                </section>
-            </div>
-            <div data-aos="fade-left">
-                <section class="portfolio_carousel">
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="portfolio_block">
-                                    <div class="portfolio_image">
-                                        <a class="portfolio_image_wrap bg-light" href="nfc.html">
-                                            <img src="assets/images/premiumbusinesscard.jpeg" alt="Mobile App Design">
+            </section>
+        </div>
+
+        <div data-aos="fade-up">
+            <section class="portfolio_carousel">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="portfolio_block">
+                                <div class="portfolio_image">
+                                    <a class="portfolio_image_wrap bg-light" href="nfc.html">
+                                        <img src="assets/images/premiumbusinesscard.jpeg" alt="Mobile App Design">
+                                    </a>
+                                </div>
+                                <div class="portfolio_content">
+                                    <h3 class="portfolio_title">
+                                        <a href="nfc.html">
+                                            Premium Business Card
+                                            <span class="btn_icon">
+                                                <svg style="height: 40px; width: 40px;"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+                                                </svg>
+                                                <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
+                                            </span>
                                         </a>
-                                    </div>
-                                    <div class="portfolio_content">
-                                        <h3 class="portfolio_title">
-                                            <a href="nfc.html">
-                                                Premium Business Card
-                                                <span class="btn_icon">
-                                                    <svg style="height: 40px; width: 40px;"
-                                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                        fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
-                                                        viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
-                                                    </svg>
-                                                    <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
-                                                </span>
-                                            </a>
-                                        </h3>
-                                        <!-- <ul class="category_list unordered_list">
+                                    </h3>
+                                    <!-- <ul class="category_list unordered_list">
                                             <a href="nfc.html"> Near Field Communication</a>
                                         </ul> -->
-                                        <!-- <a class="btn" href="nfc.html">
+                                    <!-- <a class="btn" href="nfc.html">
                                              <span class="btn_label" data-text="Explore">Explore</span> 
                                             <span class="btn_icon">
                                                 <svg style="height: 40px; width: 40px;"
@@ -281,34 +282,34 @@
                                                 </svg>
                                             </span>
                                         </a> -->
-                                    </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="portfolio_block">
-                                    <div class="portfolio_image">
-                                        <a class="portfolio_image_wrap bg-light" href="nfc.html">
-                                            <img src="assets/images/googlereviewcard.jpeg" alt="Mobile App Design">
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="portfolio_block">
+                                <div class="portfolio_image">
+                                    <a class="portfolio_image_wrap bg-light" href="nfc.html">
+                                        <img src="assets/images/googlereviewcard.jpeg" alt="Mobile App Design">
+                                    </a>
+                                </div>
+                                <div class="portfolio_content">
+                                    <h3 class="portfolio_title">
+                                        <a href="nfc.html">
+                                            Google Review Card
+                                            <span class="btn_icon">
+                                                <svg style="height: 40px; width: 40px;"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+                                                </svg>
                                         </a>
-                                    </div>
-                                    <div class="portfolio_content">
-                                        <h3 class="portfolio_title">
-                                            <a href="nfc.html">
-                                                Google Review Card
-                                                <span class="btn_icon">
-                                                    <svg style="height: 40px; width: 40px;"
-                                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                        fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
-                                                        viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
-                                                    </svg>
-                                            </a>
-                                        </h3>
-                                        <!-- <ul class="category_list unordered_list">
+                                    </h3>
+                                    <!-- <ul class="category_list unordered_list">
                                             <a href="nfc.html"> Near Field Communication</a>
                                         </ul> -->
-                                        <!-- <a class="btn" href="nfc.html">
+                                    <!-- <a class="btn" href="nfc.html">
                                             <span class="btn_icon">
                                                 <svg style="height: 40px; width: 40px;"
                                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -319,66 +320,66 @@
                                                 </svg>
                                             </span>
                                         </a> -->
-                                    </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="portfolio_block">
-                                    <div class="portfolio_image">
-                                        <a class="portfolio_image_wrap bg-light" href="nfc.html">
-                                            <img src="assets/images/profilestand.jpeg" alt="Mobile App Design">
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="portfolio_block">
+                                <div class="portfolio_image">
+                                    <a class="portfolio_image_wrap bg-light" href="nfc.html">
+                                        <img src="assets/images/profilestand.jpeg" alt="Mobile App Design">
+                                    </a>
+                                </div>
+                                <div class="portfolio_content">
+                                    <h3 class="portfolio_title">
+                                        <a href="nfc.html">
+                                            Profile Stand
+                                            <span class="btn_icon">
+                                                <svg style="height: 40px; width: 40px;"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+                                                </svg>
+                                                <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
+                                            </span>
                                         </a>
-                                    </div>
-                                    <div class="portfolio_content">
-                                        <h3 class="portfolio_title">
-                                            <a href="nfc.html">
-                                                Profile Stand
-                                                <span class="btn_icon">
-                                                    <svg style="height: 40px; width: 40px;"
-                                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                        fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
-                                                        viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
-                                                    </svg>
-                                                    <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
-                                                </span>
-                                            </a>
-                                        </h3>
-                                        <!-- <ul class="category_list unordered_list">
+                                    </h3>
+                                    <!-- <ul class="category_list unordered_list">
                                             <a href="nfc.html"> Near Field Communication</a>
                                         </ul> -->
 
-                                    </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="portfolio_block">
-                                    <div class="portfolio_image">
-                                        <a class="portfolio_image_wrap bg-light" href="nfc.html">
-                                            <img src="assets/images/hotelroommenu.jpeg" alt="Mobile App Design">
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="portfolio_block">
+                                <div class="portfolio_image">
+                                    <a class="portfolio_image_wrap bg-light" href="nfc.html">
+                                        <img src="assets/images/hotelroommenu.jpeg" alt="Mobile App Design">
+                                    </a>
+                                </div>
+                                <div class="portfolio_content">
+                                    <h3 class="portfolio_title">
+                                        <a href="nfc.html">
+                                            Hotel Room Menu
+                                            <span class="btn_icon">
+                                                <svg style="height: 40px; width: 40px;"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+                                                </svg>
+                                                <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
+                                            </span>
                                         </a>
-                                    </div>
-                                    <div class="portfolio_content">
-                                        <h3 class="portfolio_title">
-                                            <a href="nfc.html">
-                                                Hotel Room Menu
-                                                <span class="btn_icon">
-                                                    <svg style="height: 40px; width: 40px;"
-                                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                        fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
-                                                        viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
-                                                    </svg>
-                                                    <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
-                                                </span>
-                                            </a>
-                                        </h3>
-                                        <!-- <ul class="category_list unordered_list">
+                                    </h3>
+                                    <!-- <ul class="category_list unordered_list">
                                             <a href="nfc.html"> Near Field Communication</a>
                                         </ul> -->
-                                        <!-- <a class="btn" href="nfc.html">
+                                    <!-- <a class="btn" href="nfc.html">
                                             <span class="btn_label" data-text="Explore">Explore</span>
                                             <span class="btn_icon">
                                                 <svg style="height: 40px; width: 40px;"
@@ -391,36 +392,36 @@
                                                 <i class="bi bi-arrow-up-right-circle-fill"></i>
                                             </span>
                                         </a> -->
-                                    </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="portfolio_block">
-                                    <div class="portfolio_image">
-                                        <a class="portfolio_image_wrap bg-light" href="nfc.html">
-                                            <img src="assets/images/restauranttablemenu.jpeg" alt="Mobile App Design">
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="portfolio_block">
+                                <div class="portfolio_image">
+                                    <a class="portfolio_image_wrap bg-light" href="nfc.html">
+                                        <img src="assets/images/restauranttablemenu.jpeg" alt="Mobile App Design">
+                                    </a>
+                                </div>
+                                <div class="portfolio_content">
+                                    <h3 class="portfolio_title">
+                                        <a href="nfc.html">
+                                            Restaurant Table Menu
+                                            <span class="btn_icon">
+                                                <svg style="height: 40px; width: 40px;"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+                                                </svg>
+                                                <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
+                                            </span>
                                         </a>
-                                    </div>
-                                    <div class="portfolio_content">
-                                        <h3 class="portfolio_title">
-                                            <a href="nfc.html">
-                                                Restaurant Table Menu
-                                                <span class="btn_icon">
-                                                    <svg style="height: 40px; width: 40px;"
-                                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                        fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
-                                                        viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
-                                                    </svg>
-                                                    <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
-                                                </span>
-                                            </a>
-                                        </h3>
-                                        <!-- <ul class="category_list unordered_list">
+                                    </h3>
+                                    <!-- <ul class="category_list unordered_list">
                                             <a href="nfc.html"> Near Field Communication</a>
                                         </ul> -->
-                                        <!-- <a class="btn" href="nfc.html">
+                                    <!-- <a class="btn" href="nfc.html">
                                             <span class="btn_icon">
                                                 <svg style="height: 40px; width: 40px;"
                                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -431,174 +432,171 @@
                                                 </svg>
                                             </span>
                                         </a> -->
-                                    </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="portfolio_block">
-                                    <div class="portfolio_image">
-                                        <a class="portfolio_image_wrap bg-light" href="nfc.html">
-                                            <img src="assets/images/carconnect.jpeg" alt="Mobile App Design">
-                                        </a>
-                                    </div>
-                                    <div class="portfolio_content">
-                                        <h3 class="portfolio_title">
-                                            <a href="nfc.html">
-                                                Car Connect
-                                                <span class="btn_icon">
-                                                    <svg style="height: 40px; width: 40px;"
-                                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                        fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
-                                                        viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
-                                                    </svg>
-                                                    <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
-                                                </span>
-                                            </a>
-                                        </h3>
-                                        <!-- <ul class="category_list unordered_list">
-                                            <a href="nfc.html"> Near Field Communication</a>
-                                        </ul> -->
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="portfolio_block">
-                                    <div class="portfolio_image">
-                                        <a class="portfolio_image_wrap bg-light" href="nfc.html">
-                                            <img src="assets/images/exhibitionshowcasestand.jpeg"
-                                                alt="Mobile App Design">
-                                        </a>
-                                    </div>
-                                    <div class="portfolio_content">
-                                        <h3 class="portfolio_title">
-                                            <a href="nfc.html">
-                                                Exhibition Showcase Stand <span class="btn_icon">
-                                                    <svg style="height: 40px; width: 40px;"
-                                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                        fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
-                                                        viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
-                                                    </svg>
-                                                    <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
-                                                </span>
-                                            </a>
-                                        </h3>
-                                        <!-- <ul class="category_list unordered_list">
-                                            <a href="nfc.html"> Near Field Communication</a>
-                                        </ul> -->
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="portfolio_block">
-                                    <div class="portfolio_image">
-                                        <a class="portfolio_image_wrap bg-light" href="nfc.html">
-                                            <img src="assets/images/homeboard.jpeg" alt="Mobile App Design">
-                                        </a>
-                                    </div>
-                                    <div class="portfolio_content">
-                                        <h3 class="portfolio_title">
-                                            <a href="nfc.html">
-                                                Home Board<span class="btn_icon">
-                                                    <svg style="height: 40px; width: 40px;"
-                                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                        fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
-                                                        viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
-                                                    </svg>
-                                                    <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
-                                                </span>
-                                            </a>
-                                        </h3>
-                                        <!-- <ul class="category_list unordered_list">
-                                            <a href="nfc.html"> Near Field Communication</a>
-                                        </ul> -->
-
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-slide">
+                            <div class="portfolio_block">
+                                <div class="portfolio_image">
+                                    <a class="portfolio_image_wrap bg-light" href="nfc.html">
+                                        <img src="assets/images/carconnect.jpeg" alt="Mobile App Design">
+                                    </a>
+                                </div>
+                                <div class="portfolio_content">
+                                    <h3 class="portfolio_title">
+                                        <a href="nfc.html">
+                                            Car Connect
+                                            <span class="btn_icon">
+                                                <svg style="height: 40px; width: 40px;"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+                                                </svg>
+                                                <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
+                                            </span>
+                                        </a>
+                                    </h3>
+                                    <!-- <ul class="category_list unordered_list">
+                                            <a href="nfc.html"> Near Field Communication</a>
+                                        </ul> -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="portfolio_block">
+                                <div class="portfolio_image">
+                                    <a class="portfolio_image_wrap bg-light" href="nfc.html">
+                                        <img src="assets/images/exhibitionshowcasestand.jpeg" alt="Mobile App Design">
+                                    </a>
+                                </div>
+                                <div class="portfolio_content">
+                                    <h3 class="portfolio_title">
+                                        <a href="nfc.html">
+                                            Exhibition Showcase Stand <span class="btn_icon">
+                                                <svg style="height: 40px; width: 40px;"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+                                                </svg>
+                                                <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
+                                            </span>
+                                        </a>
+                                    </h3>
+                                    <!-- <ul class="category_list unordered_list">
+                                            <a href="nfc.html"> Near Field Communication</a>
+                                        </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="portfolio_block">
+                                <div class="portfolio_image">
+                                    <a class="portfolio_image_wrap bg-light" href="nfc.html">
+                                        <img src="assets/images/homeboard.jpeg" alt="Mobile App Design">
+                                    </a>
+                                </div>
+                                <div class="portfolio_content">
+                                    <h3 class="portfolio_title">
+                                        <a href="nfc.html">
+                                            Home Board<span class="btn_icon">
+                                                <svg style="height: 40px; width: 40px;"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+                                                </svg>
+                                                <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
+                                            </span>
+                                        </a>
+                                    </h3>
+                                    <!-- <ul class="category_list unordered_list">
+                                            <a href="nfc.html"> Near Field Communication</a>
+                                        </ul> -->
+
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-                    <script>
-                        var swiper = new Swiper(".mySwiper", {
-                            navigation: {
-                                nextEl: ".swiper-button-next",
-                                prevEl: ".swiper-button-prev",
-                            },
-                        });
-                    </script>
-                    <script>
-                        AOS.init();
-                    </script>
-                </section>
-            </div>
-            <script>
-                AOS.init();
-            </script>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                <script>
+                    var swiper = new Swiper(".mySwiper", {
+                        navigation: {
+                            nextEl: ".swiper-button-next",
+                            prevEl: ".swiper-button-prev",
+                        },
+                    });
+                </script>
+                <script>
+                    AOS.init();
+                </script>
+            </section>
+        </div>
+        <script>
+            AOS.init();
+        </script>
 
-            <section class="about_section section_space">
-                <div class="container">
-                    <div class="row align-items-center justify-content-lg-between">
-                        <div data-aos="fade-right">
-                            <div class="col-md-6 service_block">
-                                <div class="about_image_1 service_image">
-                                    <img src="assets/images/Growyourbusiness.jpg"
-                                        style="border-radius: 30px 30px 30px 30px;width: 100%;" alt="Cardly Image">
-                                    <!-- <img src="assets/images/about_image_11.webp" data-parallax='{"y" : 80, "smoothness": 6}'
-                                    alt="Techco - About Image">
-                                <img src="assets/images/about_image_10.webp"
-                                    data-parallax='{"y" : -80, "smoothness": 6}' alt="Techco - About Image"> -->
-                                </div>
+        <section class="about_section section_space">
+            <div class="container">
+                <div class="row align-items-center justify-content-lg-between">
+                    <div data-aos="fade-right">
+                        <div class="col-md-6 service_block">
+                            <div class="about_image_1 service_image">
+                                <img src="assets/images/Growyourbusiness.jpg"
+                                    style="border-radius: 30px 30px 30px 30px;width: 100%;" alt="Cardly Image">
+
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-6">
-                            <div data-aos="fade-left">
-                                <div class="about_content align-items-center">
-                                    <div class="heading_block">
+                    </div>
+                    <div class="col-lg-5 col-md-6">
+                        <div data-aos="fade-up">
+                            <div class="about_content align-items-center">
+                                <div class="heading_block">
 
-                                        <h2 class="heading_text">
-                                            Seamlessly Communicate
-                                        </h2>
-                                        <p class="heading_description mb-0">
-                                            You can share your social media and contacs using cardly NFC business cards
-                                            seamlessly with a tap
-                                        </p>
-                                    </div>
-                                    <ul class="icon_list unordered_list_block mb-5">
-                                        <li>
-                                            <span class="icon_list_icon">
-                                                <i class="fa-solid fa-circle fa-fw"></i>
-                                            </span>
-                                            <span class="icon_list_text">
-                                                Grow your business the right way.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span class="icon_list_icon">
-                                                <i class="fa-solid fa-circle fa-fw"></i>
-                                            </span>
-                                            <span class="icon_list_text">
-                                                Let business growth help your business grow.
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span class="icon_list_icon">
-                                                <i class="fa-solid fa-circle fa-fw"></i>
-                                            </span>
-                                            <span class="icon_list_text">
-                                                Helping you to get better.
-                                            </span>
-                                        </li>
-                                    </ul>
+                                    <h2 class="heading_text">
+                                        Seamlessly Communicate
+                                    </h2>
+                                    <p class="heading_description mb-0">
+                                        You can share your social media and contacs using cardly NFC business cards
+                                        seamlessly with a tap
+                                    </p>
+                                </div>
+                                <ul class="icon_list unordered_list_block mb-5">
+                                    <li>
+                                        <span class="icon_list_icon">
+                                            <i class="fa-solid fa-circle fa-fw"></i>
+                                        </span>
+                                        <span class="icon_list_text">
+                                            Grow your business the right way.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="icon_list_icon">
+                                            <i class="fa-solid fa-circle fa-fw"></i>
+                                        </span>
+                                        <span class="icon_list_text">
+                                            Let business growth help your business grow.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="icon_list_icon">
+                                            <i class="fa-solid fa-circle fa-fw"></i>
+                                        </span>
+                                        <span class="icon_list_text">
+                                            Helping you to get better.
+                                        </span>
+                                    </li>
+                                </ul>
+                                <div data-aos="fade-up">
                                     <ul class="btns_group unordered_list p-0 " style=" list-style-type: none;">
                                         <li style="margin-left: 50px;">
                                             <a class="video_btn" href="https://forms.gle/XEzzq6fHmLAErCg3A">
@@ -613,8 +611,7 @@
                                                     </svg>
                                                 </span>
                                             </a>
-                                            <!-- </li>
-                                        <li style="margin-left: 90px"> -->
+
                                             <a class="video_btn" href="https://www.youtube.com/watch?v=gHmlW8V53hg">
                                                 <span class="btn_icon">
                                                     <span class="btn_label">How It Works</span>
@@ -635,44 +632,47 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
 
-            <section class="footeeralign">
-                <footer class="footer">
-                    <div class="waves">
-                        <div class="wave" id="wave1"></div>
-                        <div class="wave" id="wave2"></div>
-                        <div class="wave" id="wave3"></div>
-                        <div class="wave" id="wave4"></div>
-                    </div>
-                    <ul class="social-icon">
+        <section class="footeeralign">
+            <footer class="footer">
+                <div class="waves">
+                    <div class="wave" id="wave1"></div>
+                    <div class="wave" id="wave2"></div>
+                    <div class="wave" id="wave3"></div>
+                    <div class="wave" id="wave4"></div>
+                </div>
+                <ul class="social-icon">
+                    <!-- <li class="social-icon__item"><a class="social-icon__link" href="#">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a></li>
+                    <li class="social-icon__item"><a class="social-icon__link" href="#">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a></li>
+                    <li class="social-icon__item"><a class="social-icon__link" href="#">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a></li> -->
+                    <li class="social-icon__item"><a class="social-icon__link" href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a></li>
                         <li class="social-icon__item"><a class="social-icon__link" href="#">
-                                <ion-icon name="logo-facebook"></ion-icon>
-                            </a></li>
-                        <li class="social-icon__item"><a class="social-icon__link" href="#">
-                                <ion-icon name="logo-twitter"></ion-icon>
-                            </a></li>
-                        <li class="social-icon__item"><a class="social-icon__link" href="#">
-                                <ion-icon name="logo-linkedin"></ion-icon>
-                            </a></li>
-                        <li class="social-icon__item"><a class="social-icon__link" href="#">
-                                <ion-icon name="logo-instagram"></ion-icon>
-                            </a></li>
-                    </ul>
-                    <ul class="menu">
-                        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a></li>
+                </ul>
+                <ul class="menu">
+                    <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">About Us</a></li>
+                    
+                    <li class="menu__item"><a class="menu__link" href="#">Contact Us</a></li>
 
-                    </ul>
+                </ul>
 
-                </footer>
+            </footer>
 
-            </section>
-        </div>
+        </section>
+    </div>
 
 </body>
 
