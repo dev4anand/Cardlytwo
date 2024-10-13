@@ -57,7 +57,13 @@
     position: relative;
     padding: 25px 30px 28px;
 }
+.portfolio_block .portfolio_title .btn_icon{
+    color: #3586ff;
+}
 
+.portfolio_block .portfolio_title .btn_icon svg:hover{
+    color: #020842;
+}
 .portfolio_block .portfolio_title {
     font-size: 26px;
     line-height: 36px;
@@ -65,13 +71,15 @@
 }
 
 .portfolio_block .portfolio_title a {
-    color: #020842;
+    color: #494848;
+    font-weight: bold;
+
     text-decoration: none;
 }
 
-.portfolio_block .portfolio_title a:hover {
-    color:#0044EB;
-}
+/* .portfolio_block .portfolio_title a:hover {
+    color:#020842;
+} */
 
 .portfolio_block .category_list {
     gap: 30px;
