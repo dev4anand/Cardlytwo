@@ -36,13 +36,17 @@
     --bs-border-radius-pill: 50px;
     --bs-transition: 300ms ease;
 }
-
-.cardlymaincontent .container {
-    /* padding: 15px 0; */
-    padding-top: 30px;
+body * {
+    font-family: 'Lato', sans-serif; /* Set Lato as the default font */
+}
+.portfolio_carousel .heading1 {
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+    /* padding-top: 30px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center; */
 
 }
 
@@ -60,6 +64,7 @@
 
 
 }
+
 
 .heading1 {
     text-align: center;
@@ -297,13 +302,16 @@
 } */
 .sample-header-section {
     position: relative;
-    padding: 3% 0 3%;
+    padding: 10% 0 3%;
+    padding-right: 30px;
+    padding-left: 30px;
+
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
     color: white;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
 }
 
 h1 {
