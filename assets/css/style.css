@@ -471,3 +471,17 @@ h2 {
 .backtotop .scroll i {
     animation: bttIconMover 1s infinite alternate;
 }
+
+
+
+/* card */
+  .card_section{
+    align-items: center;
+  }
+  .iconbox_icon img {
+    max-width: 100px;
+  }
+  
+  
+  
+ 
