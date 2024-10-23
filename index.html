@@ -24,7 +24,7 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body class="bodybg">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
@@ -73,17 +73,24 @@
     <nav class="navbar  fixed-top navbar-light bg-transparent">
         <div class="container-fluid ">
             <!-- <a class="navbar-brand" href="#">CARDLY</a> -->
-            <span style="max-width: 124px; margin-left: 35%;text-decoration: none;" href="index.html">
+            <!-- <span style="max-width: 130px; margin-left: 35%;text-decoration: none;" href="index.html">
                 <h1 style="font-weight: bold;">CARDLY</h1>
+            </span> -->
+            <span style="max-width: 130px; margin-left: 35%; text-decoration: none;">
+                <h1 style="font-weight: bold; background: linear-gradient(to right, #d300fd, #2903ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">CARDLY</h1>
             </span>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            
+            <button style=" border-radius: 100px;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
+                aria-labelledby="offcanvasNavbarLabel" style=" width: 65%;">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CARDLY</h5>
+                    <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CARDLY</h5> -->
+                    <span style="max-width: 130px; text-decoration: none;" href="index.html">
+                        <h1 style="font-weight: bold;">CARDLY</h1>
+                    </span>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -145,8 +152,7 @@
     <script>
         AOS.init();
     </script>
-    <div
-        style="background-image: linear-gradient(157.5deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(135deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(112.5deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(90deg, rgb(53,134,255),rgb(43,241,243)); background-blend-mode:overlay,overlay,overlay,normal;">
+    <div>
         <div data-aos="fade-up">
             <div class="d-flex justify-content-center sample-header-section">
                 <div class="heading1">
@@ -384,8 +390,8 @@
                         </div>
 
                     </div>
-                    <div class="swiper-button-next" style="margin-top: -100px;"></div>
-                    <div class="swiper-button-prev" style="margin-top: -100px;"></div>
+                    <div class="swiper-button-next" style="margin-top: -70px;"></div>
+                    <div class="swiper-button-prev" style="margin-top: -70px;"></div>
                 </div>
                 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
                 <script>
@@ -401,6 +407,14 @@
         </div>
        
         <section class="card_section">
+            <div data-aos="fade-UP" class="d-flex justify-content-center ">
+                <div class="heading2">
+                    <h2>
+                        OUR TECHNOLOGIES
+                    </h2>
+                    
+                </div>
+            </div>
             <div class="row row-cols-2 row-cols-md-4 g-2 " style="margin-top: 10px;">
                 <div class="col">
                     <div data-aos="fade-right">
