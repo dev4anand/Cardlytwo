@@ -41,8 +41,8 @@ body * {
 }
 .portfolio_carousel .heading1 {
     color: white;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-    padding: 15px 0;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.5);
+    /* padding: 10px; */
     /* padding-top: 30px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -302,7 +302,8 @@ body * {
 } */
 .sample-header-section {
     position: relative;
-    padding: 10% 0 3%;
+    /* padding: 15% 0 0%; */
+    padding-top: 20%;
     padding-right: 30px;
     padding-left: 30px;
 
@@ -310,7 +311,7 @@ body * {
     margin-left: auto;
     margin-right: auto;
     color: white;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.5);
     /* font-family: "Montserrat", sans-serif; */
 }
 
@@ -476,10 +477,19 @@ h2 {
 
 /* card */
   .card_section{
-    align-items: center;
+    /* align-items: center; */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .iconbox_icon{
+    border-radius: 100px;
   }
   .iconbox_icon img {
     max-width: 100px;
+    /* margin-left: 45px; */
+    margin-top: 10px;
+    /* padding-left: 60px; */
+    /* align-items: center; */
   }
   
   

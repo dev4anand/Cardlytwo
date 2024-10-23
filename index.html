@@ -36,7 +36,7 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>>
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="assets/js/home.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -52,10 +52,8 @@
         </a>
     </div>
     <script>
-        // Get the button
         const scrollToTopButton = document.getElementById("scrollToTop");
 
-        // Show the button when scrolling down
         window.onscroll = function () {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 scrollToTopButton.style.display = "block";
@@ -64,21 +62,20 @@
             }
         };
 
-        // Smooth scroll to top when button is clicked
         scrollToTopButton.addEventListener("click", function (e) {
-            e.preventDefault(); // Prevent the default anchor behavior
+            e.preventDefault();
             window.scrollTo({
                 top: 0,
                 behavior: "smooth"
             });
         });
     </script>
-    <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
+    <nav class="navbar  fixed-top navbar-light bg-transparent">
+        <div class="container-fluid ">
             <!-- <a class="navbar-brand" href="#">CARDLY</a> -->
-            <a style="max-width: 124px; text-decoration: none;" href="index.html">
+            <span style="max-width: 124px; margin-left: 35%;text-decoration: none;" href="index.html">
                 <h1 style="font-weight: bold;">CARDLY</h1>
-            </a>
+            </span>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -156,9 +153,7 @@
                     <h2>
                         WHAT ARE WE ?
                     </h2>
-
                     <p>
-                        <br>
                         Next generation businesses cards Solutions privacy options
                         Elevate your brand, elevate your business
                         Your partner in business success
@@ -167,58 +162,7 @@
             </div>
         </div>
 
-        <!-- <section class="cardlymaincontent ">
-            <div class="container">
-              
-            </div>
-
-        </section>
-        <script>
-            AOS.init();
-        </script> -->
-        <!-- <div data-aos="fade-right">
-            <section class="client_logo_section section_space_p"
-                style="background-image: url('assets/images/bg_pattern_1.svg');">
-
-                <div class="container">
-                    <div class="section_space ">
-                        <div class="heading_block text-center">
-                            <div class="heading_focus_text mb-0">
-                                <h2 class="heading_text">
-                                    Welcome to Cardly
-                                </h2>
-                                <h5>Your one-stop-shop for premium NFC-enabled business cards.</h5>
-
-                                <p>Elevate your brand's presence with Cardly's innovative products. Our premium
-                                    business
-                                    cards, equipped with NFC technology, offer a seamless way to share information
-                                    and
-                                    connect with potential clients. Showcase your positive reviews with our stylish
-                                    Google
-                                    Review Cards. Need a captivating display? Our Profile Stands and Exhibition
-                                    Showcase
-                                    Stands are perfect for showcasing your products or services.
-
-                                    For businesses in the hospitality industry, our Hotel Room Menus and Restaurant
-                                    Table
-                                    Menus provide a unique and interactive dining experience. Stay connected with
-                                    your
-                                    customers on the go with our Car Connect solution, featuring QR codes and NFC
-                                    technology. And for a stylish home presence, our Home Boards are the ideal
-                                    choice.
-
-                                    At Cardly, we believe in providing next-generation business solutions that drive
-                                    growth
-                                    and engagement. Explore our product range and discover how we can help you make
-                                    a
-                                    lasting impression.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-        </div> -->
+        
 
         <div data-aos="fade-up">
             <section class="portfolio_carousel">
@@ -252,21 +196,7 @@
                                             </span>
                                         </a>
                                     </h3>
-                                    <!-- <ul class="category_list unordered_list">
-                                            <a href="nfc.html"> Near Field Communication</a>
-                                        </ul> -->
-                                    <!-- <a class="btn" href="nfc.html">
-                                             <span class="btn_label" data-text="Explore">Explore</span> 
-                                            <span class="btn_icon">
-                                                <svg style="height: 40px; width: 40px;"
-                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
-                                                    viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
-                                                </svg>
-                                            </span>
-                                        </a> -->
+                                    
                                 </div>
                             </div>
                         </div>
@@ -291,20 +221,7 @@
                                                 </svg>
                                         </a>
                                     </h3>
-                                    <!-- <ul class="category_list unordered_list">
-                                            <a href="nfc.html"> Near Field Communication</a>
-                                        </ul> -->
-                                    <!-- <a class="btn" href="nfc.html">
-                                            <span class="btn_icon">
-                                                <svg style="height: 40px; width: 40px;"
-                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
-                                                    viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
-                                                </svg>
-                                            </span>
-                                        </a> -->
+                                   
                                 </div>
                             </div>
                         </div>
@@ -327,13 +244,10 @@
                                                     <path
                                                         d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
                                                 </svg>
-                                                <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
                                             </span>
                                         </a>
                                     </h3>
-                                    <!-- <ul class="category_list unordered_list">
-                                            <a href="nfc.html"> Near Field Communication</a>
-                                        </ul> -->
+                                    
 
                                 </div>
                             </div>
@@ -357,26 +271,10 @@
                                                     <path
                                                         d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
                                                 </svg>
-                                                <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
                                             </span>
                                         </a>
                                     </h3>
-                                    <!-- <ul class="category_list unordered_list">
-                                            <a href="nfc.html"> Near Field Communication</a>
-                                        </ul> -->
-                                    <!-- <a class="btn" href="nfc.html">
-                                            <span class="btn_label" data-text="Explore">Explore</span>
-                                            <span class="btn_icon">
-                                                <svg style="height: 40px; width: 40px;"
-                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
-                                                    viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
-                                                </svg>
-                                                <i class="bi bi-arrow-up-right-circle-fill"></i>
-                                            </span>
-                                        </a> -->
+                                    
                                 </div>
                             </div>
                         </div>
@@ -399,24 +297,10 @@
                                                     <path
                                                         d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
                                                 </svg>
-                                                <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
                                             </span>
                                         </a>
                                     </h3>
-                                    <!-- <ul class="category_list unordered_list">
-                                            <a href="nfc.html"> Near Field Communication</a>
-                                        </ul> -->
-                                    <!-- <a class="btn" href="nfc.html">
-                                            <span class="btn_icon">
-                                                <svg style="height: 40px; width: 40px;"
-                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
-                                                    viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
-                                                </svg>
-                                            </span>
-                                        </a> -->
+                                   
                                 </div>
                             </div>
                         </div>
@@ -439,13 +323,10 @@
                                                     <path
                                                         d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
                                                 </svg>
-                                                <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
                                             </span>
                                         </a>
                                     </h3>
-                                    <!-- <ul class="category_list unordered_list">
-                                            <a href="nfc.html"> Near Field Communication</a>
-                                        </ul> -->
+                                    
 
                                 </div>
                             </div>
@@ -468,13 +349,10 @@
                                                     <path
                                                         d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
                                                 </svg>
-                                                <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
                                             </span>
                                         </a>
                                     </h3>
-                                    <!-- <ul class="category_list unordered_list">
-                                            <a href="nfc.html"> Near Field Communication</a>
-                                        </ul> -->
+                                    
                                 </div>
                             </div>
                         </div>
@@ -496,21 +374,18 @@
                                                     <path
                                                         d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
                                                 </svg>
-                                                <!-- <i class="bi bi-arrow-up-right-circle-fill"></i> -->
                                             </span>
                                         </a>
                                     </h3>
-                                    <!-- <ul class="category_list unordered_list">
-                                            <a href="nfc.html"> Near Field Communication</a>
-                                        </ul> -->
+                                    
 
                                 </div>
                             </div>
                         </div>
 
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next" style="margin-top: -100px;"></div>
+                    <div class="swiper-button-prev" style="margin-top: -100px;"></div>
                 </div>
                 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
                 <script>
@@ -521,119 +396,73 @@
                         },
                     });
                 </script>
-                <!-- <script>
-                    AOS.init();
-                </script> -->
+                
             </section>
         </div>
-        <!-- <script>
-            AOS.init();
-        </script> -->
-        <!-- <section class="policy_section" style="margin-top: 50px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="iconbox_block">
-                            <div class="iconbox_icon">
-                                <img src="assets/images/NFCSMALL.png" alt="Clock SVG Icon">
-                            </div>
-                            <div class="iconbox_content">
-                                <h3 class="iconbox_title">Our History</h3>
-                                <p class="mb-0">
-                                    Since 1997 we have been a visionary and a reliable software engineering partner for
-                                    world-class brands. abbreviated as co.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="iconbox_block">
-                            <div class="iconbox_icon">
-                                <img src="assets/images/QRSMALL.png" alt="Clock SVG Icon">
-                            </div>
-                            <div class="iconbox_content">
-                                <h3 class="iconbox_title">Our History</h3>
-                                <p class="mb-0">
-                                    Since 1997 we have been a visionary and a reliable software engineering partner for
-                                    world-class brands. abbreviated as co.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="iconbox_block">
-                            <div class="iconbox_icon bg-warning-subtle">
-                                <img src="assets/images/WEBSMALL.png" alt="Dart Board SVG Icon">
-                            </div>
-                            <div class="iconbox_content">
-                                <h3 class="iconbox_title">Our Mission</h3>
-                                <p class="mb-0">
-                                    A mission statement clarifies what the company wants to achieve, who they want to
-                                    support, and why they want to support them. On the other hand
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="iconbox_block">
-                            <div class="iconbox_icon bg-secondary-subtle">
-                                <img src="assets/images/MOBILESMALL.png" alt="Target SVG Icon">
-                            </div>
-                            <div class="iconbox_content">
-                                <h3 class="iconbox_title">Our Vision</h3>
-                                <p class="mb-0">
-                                    A vision statement for a company or organization focuses on the potential inherent
-                                    in the company's future; it's about what they intend to be how you
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+       
         <section class="card_section">
-            <div class="row row-cols-2 row-cols-md-4 g-2 " style="margin-top: 30px;">
+            <div class="row row-cols-2 row-cols-md-4 g-2 " style="margin-top: 10px;">
                 <div class="col">
-                    <div class="iconbox_icon card h-100 d-flex justify-content-evenly">
-                        <img src="assets/images/NFCSMALL.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content.</p>
+                    <div data-aos="fade-right">
+                        <div class="iconbox_icon card h-100" style="border-radius: 30px;">
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/NFCSMALL.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Card title</h5>
+                                <p class="card-text text-center">This is a longer card with supporting text below as a
+                                    natural lead-in
+                                    to
+                                    additional content.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class=" iconbox_icon card h-100">
-                        <img src="assets/images/QRSMALL.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content.</p>
+                    <div data-aos="fade-right">
+                        <div class=" iconbox_icon card h-100" style="border-radius: 30px;">
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/QRSMALL.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Card title</h5>
+                                <p class="card-text text-center">This is a longer card with supporting text below as a
+                                    natural lead-in
+                                    to
+                                    additional content.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="iconbox_icon card h-100">
-                        <img src="assets/images/WEBSMALL.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content.</p>
+                    <div data-aos="fade-up">
+                        <div class="iconbox_icon card h-100" style="border-radius: 30px;">
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/WEBSMALL.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Card title</h5>
+                                <p class="card-text text-center">This is a longer card with supporting text below as a
+                                    natural lead-in
+                                    to
+                                    additional content.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="iconbox_icon card h-100">
-                        <img src="assets/images/MOBILESMALL.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content.</p>
+                    <div data-aos="fade-up">
+                        <div class="iconbox_icon card h-100" style="border-radius: 30px;">
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/MOBILESMALL.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Card title</h5>
+                                <p class="card-text text-center">This is a longer card with supporting text below as a
+                                    natural lead-in
+                                    to
+                                    additional content.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -739,15 +568,7 @@
                     <div class="wave" id="wave4"></div>
                 </div>
                 <ul class="social-icon">
-                    <!-- <li class="social-icon__item"><a class="social-icon__link" href="#">
-                            <ion-icon name="logo-facebook"></ion-icon>
-                        </a></li>
-                    <li class="social-icon__item"><a class="social-icon__link" href="#">
-                            <ion-icon name="logo-twitter"></ion-icon>
-                        </a></li>
-                    <li class="social-icon__item"><a class="social-icon__link" href="#">
-                            <ion-icon name="logo-linkedin"></ion-icon>
-                        </a></li> -->
+                    
                     <li class="social-icon__item"><a class="social-icon__link" href="#">
                             <ion-icon name="logo-instagram"></ion-icon>
                         </a></li>

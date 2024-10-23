@@ -35,7 +35,7 @@
 }
 
 .portfolio_carousel {
-    margin-top: 30px;
+    margin-top: 10px;
 
 
 }
@@ -51,11 +51,12 @@
 .portfolio_block .portfolio_image_wrap {
     display: block;
     overflow: hidden;
+    border-radius: 30px;
 }
 
 .portfolio_block .portfolio_content {
     position: relative;
-    padding: 25px 30px 28px;
+    padding: 20px 10px 20px;
 }
 .portfolio_block .portfolio_title .btn_icon{
     color: #3586ff;
