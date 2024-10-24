@@ -77,6 +77,11 @@ position: relative;
 }
 .heading1 {
     text-align: center;
+    margin-bottom: 20px;
+
+}
+.heading3 {
+    text-align: center;
 
 }
 /* @keyframes cool-gradient {
@@ -440,27 +445,6 @@ h2 {
     justify-content: space-around;
 }
 
-/* .video_btn {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    border: 1px solid #ddd;
-    border-radius: 30px;
-    text-decoration: none;
-    color: #000;
-    transition: all 0.2s ease-in-out;23BABF
-}
-
-.video_btn:hover {
-    background-color: #020842;
-}
-
-.btn_label {
-    margin-right: 10px;
-    font-weight: bold;
-} */
-
-
 
 .video_btn{
     text-decoration: none;
@@ -489,11 +473,9 @@ h2 {
     box-shadow: 0 20px 30px 0 rgba(174, 191, 210, 0.3);
 }
 
-.backtotop .scroll:hover {
-    color: #020842;
-}
 
-.backtotop .scroll i {
+
+.backtotop .scroll svg {
     animation: bttIconMover 1s infinite alternate;
 }
 
@@ -574,3 +556,15 @@ h2 {
       transform: scale(1);
     }
   } */
+
+  .navbaroffcampusbody{
+    background-image: linear-gradient(157.5deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(135deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(112.5deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(90deg, rgb(53,134,255),rgb(43,241,243)); background-blend-mode:overlay,overlay,overlay,normal;
+    max-height: 600px; 
+    overflow-y: auto;
+    border-radius: 30px 10px 10px 30px;
+  }
+ .dropdownnav a{
+    /* font-weight: 500; */
+    font-weight: bold;
+ }
+ 
