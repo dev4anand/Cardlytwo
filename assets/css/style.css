@@ -483,7 +483,9 @@ body * {
 .video_btn {
     text-decoration: none;
 }
-
+.btn_icon{
+    color: #494848;
+}
 .backtotop {
     right: 15px;
     z-index: 999;
@@ -501,7 +503,7 @@ body * {
     position: relative;
     align-items: center;
     border-radius: 100%;
-    color: #3586ff;
+    color: #494848;
     justify-content: center;
     background-color: white;
     border: 1px solid var(--bs-border-color);
@@ -608,7 +610,7 @@ body * {
     width: 50px;
     height: 50px;
     border: 4px solid #f3f3f3; /* Adjust border color */
-    border-top: 4px solid #3498db; /* Adjust top border color */
+    border-top: 4px solid #494848; /* Adjust top border color */
     border-radius: 50%;
     animation: spin 1s linear infinite;
   }
