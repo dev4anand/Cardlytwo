@@ -554,7 +554,7 @@ body * {
       #ff4545
     );
     border-radius: 30px;
-    animation: 3s spin6 linear infinite;
+    animation: 3s spin linear infinite;
 
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -603,17 +603,10 @@ body * {
     border: 4px solid #f3f3f3; /* Adjust border color */
     border-top: 4px solid #3498db; /* Adjust top border color */
     border-radius: 50%;
-    animation: spin3 1s linear infinite;
+    animation: spin 1s linear infinite;
   }
   
-  @keyframes spin3 {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
+ 
 .about_image_1 {
     position: relative;
     /* Enable absolute positioning for the icon */
@@ -673,7 +666,7 @@ body * {
     z-index: -1;
     /* padding: 3px; */
     border-radius: 30px;
-    animation: 3s spin1 linear infinite;
+    animation: 3s spin linear infinite;
   }
   
   /* .gradientswippercard::before {
@@ -682,7 +675,7 @@ body * {
     opacity: 0.5;
   } */
   
-  @keyframes spin1 {
+  @keyframes spin {
     from {
       --angle: 0deg;
     }
@@ -728,18 +721,11 @@ body * {
     z-index: -1;
     /* padding: 3px; */
     border-radius: 30px;
-    animation: 3s spin5 linear infinite;
+    animation: 3s spin linear infinite;
   }
 
   
-  @keyframes spin5 {
-    from {
-      --angle: 0deg;
-    }
-    to {
-      --angle: 360deg;
-    }
-  }
+  
   .gradientcard3 {
     /* margin: 0 auto; */
     padding: 4px;
@@ -776,18 +762,10 @@ body * {
     z-index: -1;
     /* padding: 3px; */
     border-radius: 30px;
-    animation: 3s spin6 linear infinite;
+    animation: 3s spin linear infinite;
   }
 
   
-  @keyframes spin6 {
-    from {
-      --angle: 0deg;
-    }
-    to {
-      --angle: 360deg;
-    }
-  }
 
   
   .corouselimage img{
