@@ -84,19 +84,11 @@ position: relative;
     text-align: center;
 
 }
-/* @keyframes cool-gradient {
-    0% {
-        background-image: linear-gradient(to right, #008cba, #3399ff, #66ccff, #99ffff, #ccffff, #ffffff);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    
-    100% {
-        background-image: linear-gradient(to right, #ffffff, #ccffff, #99ffff, #66ccff, #3399ff, #008cba);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-} */
+.heading4{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
 
 .footeeralign {
     margin-top: 30%;
@@ -221,10 +213,6 @@ position: relative;
     transition: 0.5s;
 }
 
-.social-icon__link:hover {
-    transform: translateY(-10px);
-}
-
 .menu__link {
     font-size: 1.2rem;
     color: #fff;
@@ -332,7 +320,7 @@ position: relative;
 .sample-header-section {
     position: relative;
     /* padding: 15% 0 0%; */
-    padding-top: 20%;
+    padding-top: 80px;
     padding-right: 30px;
     padding-left: 30px;
 
@@ -343,7 +331,21 @@ position: relative;
     text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.5);
     /* font-family: "Montserrat", sans-serif; */
 }
+.sample-header-section_two {
+    position: relative;
+    /* padding: 15% 0 0%; */
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
 
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    /* color: rgb(0, 0, 0); */
+    color: #020842;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.43);
+    /* font-family: "Montserrat", sans-serif; */
+}
 h1 {
     font-weight: 500;
 }
@@ -442,8 +444,23 @@ h2 {
 
 .button-container {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-between; */
+    
 }
+.buynowbutton {  
+    display: inline-block;
+    position: relative;  /* Enables positioning for the circle */
+    padding: 10px 20px; /* Adjust padding as needed */
+    /* border-radius: 40%; */
+    border-radius: 30px 30px 30px 30px;
+    border: 3px solid #ccc;  /* Add a solid border color */
+    text-align: center; /* Center text within the button */
+    transition: all 0.2s ease-in-out;  /* Add a smooth hover effect (optional) */
+  }
+  
+  .buynowbutton:hover {
+    background-color: #eee;  /* Add a light background on hover (optional) */
+  }
 
 
 .video_btn{
@@ -608,3 +625,20 @@ h2 {
       transform: rotate(360deg);
     }
   }
+
+  .about_image_1 {
+    position: relative; /* Enable absolute positioning for the icon */
+  }
+  
+  .youtube-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%; /* Center icon horizontally */
+    transform: translate(-50%, -50%); /* Adjust positioning for different image sizes */
+    color: rgb(255, 0, 0); /* Adjust icon color to match or contrast your image */
+    font-size: 2em; /* Adjust icon size as needed */
+    background-color: rgba(255, 255, 255, 0); 
+    /* padding: 5px;  */
+    border-radius: 30%; /* Optional: Add a rounded border */
+  }
+  
