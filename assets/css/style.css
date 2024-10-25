@@ -208,7 +208,7 @@ body * {
     height: 100px;
     /* background: path('assets/images/wavegray.png'); */
     background: url('../images/wavegray.png');
-    background-size: 1000px 100px;
+    background-size: 1000px 102px;
 }
 
 .wave#wave1 {
