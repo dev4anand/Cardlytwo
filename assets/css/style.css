@@ -208,7 +208,7 @@ body * {
     height: 100px;
     /* background: path('assets/images/wavegray.png'); */
     background: url('../images/wavegray.png');
-    background-size: 1000px 102px;
+    background-size: 1000px 100px;
 }
 
 .wave#wave1 {
@@ -615,7 +615,14 @@ body * {
     animation: spin 1s linear infinite;
   }
   
- 
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 .about_image_1 {
     position: relative;
     /* Enable absolute positioning for the icon */
@@ -675,14 +682,7 @@ body * {
   }
 
   
-  @keyframes spin {
-    from {
-      --angle: 0deg;
-    }
-    to {
-      --angle: 360deg;
-    }
-  }
+ 
    */
 /* 
   .gradientcard2 {
