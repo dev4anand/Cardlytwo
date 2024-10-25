@@ -551,7 +551,7 @@ body * {
     animation: hue 2s infinite linear;
 }
 
-@-webkit-keyframes hue {
+@keyframes hue {
     from {
         -webkit-filter: hue-rotate(0deg);
     }
@@ -580,48 +580,30 @@ body * {
     left: 0;
     width: 100%;
     height: 100%;
-    /* background-color: #fff; */
-    background-image: linear-gradient(157.5deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%, rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%, rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%, rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%, rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%, rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%, rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%, rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%), linear-gradient(135deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%, rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%, rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%, rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%, rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%, rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%, rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%, rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%), linear-gradient(112.5deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%, rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%, rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%, rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%, rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%, rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%, rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%, rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%), linear-gradient(90deg, rgb(53, 134, 255), rgb(43, 241, 243));
-    background-blend-mode: overlay, overlay, overlay, normal;
-
-    z-index: 9999;
-    /* Ensure it's on top */
+    background-color: #fff; /* Adjust background color as needed */
+    z-index: 9999; /* Ensure it's on top */
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.loading-spinner {
-    width: 70px;
-    height: 70px;
-    border: 4px solid #f3f3f3;
-    border-top: 4px solid #3498db;
+  }
+  
+  .loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #f3f3f3; /* Adjust border color */
+    border-top: 4px solid #3498db; /* Adjust top border color */
     border-radius: 50%;
-    animation: spin 1s linear infinite;
-}
-
-.pageloader {
-    width: 62px;
-    position: absolute;
-    /* Position the image absolutely within the preloader */
-    top: 50%;
-    /* Center vertically */
-    left: 50%;
-    /* Center horizontally */
-    transform: translate(-50%, -50%);
-    /* Adjust positioning */
-}
-
-@keyframes spin {
+    animation: spin3 1s linear infinite;
+  }
+  
+  @keyframes spin3 {
     0% {
-        transform: rotate(0deg);
+      transform: rotate(0deg);
     }
-
     100% {
-        transform: rotate(360deg);
+      transform: rotate(360deg);
     }
-}
-
+  }
 .about_image_1 {
     position: relative;
     /* Enable absolute positioning for the icon */
@@ -681,7 +663,7 @@ body * {
     z-index: -1;
     /* padding: 3px; */
     border-radius: 30px;
-    animation: 3s spin linear infinite;
+    animation: 3s spin1 linear infinite;
   }
   
   /* .gradientswippercard::before {
@@ -690,7 +672,7 @@ body * {
     opacity: 0.5;
   } */
   
-  @keyframes spin {
+  @keyframes spin1 {
     from {
       --angle: 0deg;
     }
